@@ -1,5 +1,3 @@
-require('dotenv').config
-console.log('process.env', process.env)
 import { Client } from '@notionhq/client'
 const express = require('express')
 const cors = require('cors')
@@ -13,10 +11,6 @@ const router = express.Router();
 
 const notionSecret = process.env.NOTION_SECRET
 const notionDatabaseID = process.env.NOTION_DATABASE_ID
-
-if (!notionDatabaseID || !notionSecret) {
-    throw Error('Must define NOTION_SECRET and NOTION_DATABASE_ID in env')
-}
 
 const notion = new Client({
     auth: notionSecret,
