@@ -1,25 +1,26 @@
 {
-  "name": "server",
-  "type": "module",
+  "name": "aim-website-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "netlify deploy --prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalliehuynh/aim-website-backend.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^18.7.11",
-    "nodemon": "^2.0.19",
-    "typescript": "^4.7.4"
+  "bugs": {
+    "url": "https://github.com/kalliehuynh/aim-website-backend/issues"
   },
+  "homepage": "https://github.com/kalliehuynh/aim-website-backend#readme",
   "dependencies": {
     "@notionhq/client": "^0.4.9",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
+    "express": "^4.18.1",
     "serverless-http": "^3.0.2"
   }
 }
