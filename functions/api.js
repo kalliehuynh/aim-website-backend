@@ -1,5 +1,4 @@
 require('dotenv').config
-import http from 'http'
 import { Client } from '@notionhq/client'
 const express = require('express')
 const cors = require('cors')
