@@ -19,6 +19,7 @@
   "dependencies": {
     "@notionhq/client": "^0.4.9",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "serverless-http": "^3.0.2"
   }
 }
