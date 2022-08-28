@@ -1,10 +1,10 @@
 {
   "name": "server",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node functions/api.js",
     "build": "netlify deploy --prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
